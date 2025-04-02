@@ -1,0 +1,16 @@
+@media screen and (min-width: 758px){
+    section#head-tyla{
+        background-image: url(../imagens/tyla-paisagem.jpg);
+    }
+    header li{
+        font-size: 1em;
+    }
+    main p{
+        width: 60%;
+    }
+   
+    iframe{
+        width: 560px;
+        height: 315px;
+    }
+}

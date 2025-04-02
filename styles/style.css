@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-items: center;
+
+    overflow-x: hidden!important;
+}
+section#head-tyla{
+    background-image: url(../imagens/tyla-4k.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100vw;
+    height: 750px;
+}
+#sony{ 
+    padding-right: 20px;
+    width: 100px;
+}
+header h1{
+    text-align: end;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.479);
+    font-size: 0.8em;
+}
+li img{
+    padding-left:30px;
+    width: 60px;
+    height: 50px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+li a:hover{
+    text-decoration: underline; 
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.849);
+    font-size: 1.3em;
+    transition: transform 1s, border 1s;
+}
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+main{
+    background-color: white;
+    box-shadow: inset 3px 3px 6px rgba(0, 0, 0, 0.514);
+    width: 100vw;
+}
+main p{
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+article{
+    padding: 40px;
+}
+
+section{
+    width: 100vw;
+}
+section#music p{
+    font-family: "Oswald", sans-serif;
+    
+}
+section#music h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.8em;
+    color: white;
+    font-weight: normal;
+}
+section#music{
+    height: max-content;
+    background-image: linear-gradient(90deg, rgb(59, 54, 54), gray);
+}
+div#album{
+    text-align: center;
+    padding-bottom: 20px;
+} 
+img.tyla{
+    box-shadow: 2px 2px 6px black;
+}
+div#sportfy{
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+section#video{
+    height: max-content;
+    background-image: linear-gradient(90deg, #7B2656, #BC0402);
+}
+iframe{
+    width: 80vw;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+p.tyla{
+    margin-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+
+
+footer{
+    background-image: linear-gradient(90deg, rgb(59, 54, 54), gray);
+    width: 100vw;
+}
+footer img{
+
+    width: 300px;
+}
+footer p{
+    padding: 20px;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div#imagem{
+    text-align: center;
+    padding-top: 30px;
+}
+
+div#email{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+label{
+    padding: 10px;
+    display: block;
+    font-size: 1.8em;
+    font-family: "Oswald", sans-serif;
+
+    color: white;
+}
+input[type="email"]{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 30px;
+
+    background-image: linear-gradient(90deg, rgb(59, 54, 54), gray);
+    border: 3px solid white;
+}
+input[type="submit"]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
